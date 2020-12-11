@@ -13,7 +13,7 @@ import java.util.List;
  */
 public class PositiveFilterTest
 {
-	private static void basicTest ()
+	private static void listScanTest ()
 	{
 		System.out.println( "--- basicTest() ---" );
 
@@ -65,7 +65,7 @@ public class PositiveFilterTest
 	
 	public static void main(String args[])
 	{
-		basicTest ();
+		listScanTest ();
 		doubleNextTest (); // NoSuchElementException should occur here.
 	}
 	
