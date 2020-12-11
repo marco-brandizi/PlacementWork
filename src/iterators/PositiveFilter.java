@@ -30,5 +30,7 @@ public class PositiveFilter implements Iterator<Integer> {
 			}
 		}
 		return false;
-	} 	 
+	}
+	
+	// Note I moved main() to PositiveFilterTest
 }
